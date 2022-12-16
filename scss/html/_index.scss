@@ -35,7 +35,7 @@ main{
         }
         .maradona {
             height: 200px;
-            width: 130px;
+            width: 145px;
         }
     }
 }    
@@ -57,8 +57,11 @@ main{
     ul{ display: flex;
         flex-direction: row;
         justify-content: center;
+        align-items: center;
        li{
-        background-color: yellow;margin: 10px;padding: 10px; border-style: solid; display: inline-block ;
+        background: rgb(236,255,63);
+        background: rgb(236,255,63);
+        background: linear-gradient(90deg, rgba(236,255,63,1) 0%, rgba(255,172,135,1) 100%);margin: 10px;padding: 10px; border-style: solid; display: inline-block ;
         position: relative;
         
        }
@@ -118,6 +121,7 @@ main{
 .partebaja{
     display: grid;
     display: inline-flex;
+    margin-top: 0.75rem;
     .pizasinfondo{
         height: 10rem;
                 }
@@ -203,7 +207,7 @@ main{
     }
    
     .videohistoria {
-        margin-left: 10px;
+        margin-left: 0.5rem;
         width: 400px;
     } 
 }
@@ -267,7 +271,7 @@ main{
 /* media query */
 @media screen and (max-width:1080px){
          
-        main{ display: grid;
+    .fotitos{ display: grid;
                 
                 justify-content: space-around;}
          
@@ -302,7 +306,7 @@ main{
         }
         .logo{
             display: flex;
-            width: 100%;
+            
         }
         .partebaja{
             display: grid;
@@ -314,6 +318,10 @@ main{
         .piza{
             display: grid
         }
+        .producto{
+            display: none;
+        }
+        
     }
 
     /*ubciación */

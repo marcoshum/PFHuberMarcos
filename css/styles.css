@@ -35,7 +35,7 @@ main .fotitos {
     width: 400px; }
   main .fotitos .maradona {
     height: 200px;
-    width: 130px; }
+    width: 145px; }
 
 .naso .napoli {
   background-color: tomato;
@@ -53,9 +53,12 @@ main .fotitos {
   .menu ul {
     display: flex;
     flex-direction: row;
-    justify-content: center; }
+    justify-content: center;
+    align-items: center; }
     .menu ul li {
-      background-color: yellow;
+      background: #ecff3f;
+      background: #ecff3f;
+      background: linear-gradient(90deg, #ecff3f 0%, #ffac87 100%);
       margin: 10px;
       padding: 10px;
       border-style: solid;
@@ -86,7 +89,7 @@ main .fotitos {
   display: block;
   display: flex;
   align-items: center;
-  margin: 1%; }
+  margin: 0.5%; }
   .producto h1 {
     color: black; }
 
@@ -104,7 +107,8 @@ main .fotitos {
 
 .partebaja {
   display: grid;
-  display: inline-flex; }
+  display: inline-flex;
+  margin-top: 0.75rem; }
   .partebaja .pizasinfondo {
     height: 10rem; }
   .partebaja .pizasinfondo:hover {
@@ -154,25 +158,12 @@ main .fotitos {
   text-align: center; }
 
 .fotivid {
-  display: flex;
-  /* esto lo puse en extend
-   .antigua{
-        display: inline;
-        width: 400px;
-        height: 150px;
-    }
-
-    .antigua-dos {
-        display: inline;
-        width: 400px;
-        height: 150px;
-        margin-left: 1.5rem;
-    } */ }
+  display: flex; }
   .fotivid .history {
     background-image: url(../img/pergamin.jpg);
     font-style: italic; }
   .fotivid .videohistoria {
-    margin-left: 10px;
+    margin-left: 0.5rem;
     width: 400px; }
 
 .arma {
@@ -221,7 +212,7 @@ main .fotitos {
 
 /* media query */
 @media screen and (max-width: 1080px) {
-  main {
+  .fotitos {
     display: grid;
     justify-content: space-around; }
   .fondo {
@@ -242,14 +233,15 @@ main .fotitos {
   .ciudad {
     display: none; }
   .logo {
-    display: flex;
-    width: 100%; }
+    display: flex; }
   .partebaja {
     display: grid; }
   .ig {
     margin-top: -2%; }
   .piza {
-    display: grid; } }
+    display: grid; }
+  .producto {
+    display: none; } }
 
 /*ubciación */
 .ubi {
@@ -279,10 +271,10 @@ main .fotitos {
   display: inline; }
 
 .antigua {
-  margin-left: 1rem; }
+  margin-left: 0.5rem; }
 
 .antigua-dos {
-  margin-left: 1.1rem; }
+  margin-left: 0.5rem; }
 
 footer {
   background-image: url(../img/490x_pizza-dia-mundial-mejores-ocu-istock.jpg);
