@@ -6,6 +6,8 @@ body{
 header{
     @include row; 
     background-image: url(../img/pizza-redonda.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
     h1{
         font-style: italic;  
         color: $color-texto
@@ -203,6 +205,7 @@ main{
     .history {
         background-image: url(../img/pergamin.jpg);
         font-style: italic;
+        text-align: center;
     
     }
    

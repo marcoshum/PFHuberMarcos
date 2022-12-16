@@ -13,7 +13,9 @@ header {
   display: row;
   text-align: center;
   align-items: center;
-  background-image: url(../img/pizza-redonda.jpg); }
+  background-image: url(../img/pizza-redonda.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%; }
   header h1 {
     font-style: italic;
     color: black; }
@@ -161,7 +163,8 @@ main .fotitos {
   display: flex; }
   .fotivid .history {
     background-image: url(../img/pergamin.jpg);
-    font-style: italic; }
+    font-style: italic;
+    text-align: center; }
   .fotivid .videohistoria {
     margin-left: 0.5rem;
     width: 400px; }
@@ -280,5 +283,7 @@ footer {
   background-image: url(../img/490x_pizza-dia-mundial-mejores-ocu-istock.jpg);
   display: block;
   text-align: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
   color: black;
   font-size: 1rem; }
